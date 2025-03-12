@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Laporan Penerimaan Mahasiswa Baru</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url(poto.jpg); 
+                background-size: cover;  
+                background-position: center;  
+                color: #333;
+                height: 100vh;
+            }
+
+            
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            
+            .logo {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+           
+            h2 {
+                text-align: center;
+                color: #0c0b0b;
+                margin-top: 30px;
+            }
+
+            
+            table {
+                width: 80%;
+                margin: 30px auto;
+                border-collapse: collapse;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                border-radius: 10px;
+            }
+
+
+            th {
+                background-color: #2980B9;
+                color: white;
+                padding: 12px 20px;
+                text-align: center;
+                font-weight: bold;
+                border: 1px solid #ddd;
+            }
+
+
+            td {
+                padding: 12px 20px;
+                text-align: center;
+                border: 1px solid #ddd;
+            }
+
+
+            tr:nth-child(even) {
+                background-color: #ecf0f1;
+            }
+
+           
+            tr:hover {
+                background-color: #d3f10f;
+                cursor: pointer;
+            }
+
+
+            @media print {
+                .no-print {
+                    display: none !important;
+                }
+            }
+
+        .tombol {
+            margin-top: 5vh;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .tombol button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .tombol button:hover {
+            background-color: #0056b3;
+        }
+
+        </style>
+    </head>
+
+    <body>       
+        <center>
+            <h1>UNIVERSITAS NEGERI PADANG</h1>
+            <h2>Laporan Penerimaan Mahasiswa Baru</h2>
+            <h2> TA. 2025/2026</h2>
+            <img src="logo3.png" width="15%" alt="Logo UNP">
+        </center>
+
+        <h2>Fakultas Teknik</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Facri Raihan</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Elektronika</td>
+                <td>Informatika</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Muhammad Zikri</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Elektronika</td>
+                <td>Informatika</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Olivia Rodriguez</td>
+                <td>Perempuan</td>
+                <td>Mandiri</td>
+                <td>Otomotif</td>
+                <td>Pendidikan Teknik Otomotif</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Fadil Ikhwan</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Sipil</td>
+                <td>Pembangunan</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Melissa Oktavia</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Pertambangan</td>
+                <td>Tambang</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Ilmu Pendidikan</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Muhammad Sumbul</td>
+                <td>Laki-laki</td>
+                <td>SNBP</td>
+                <td>Administrasi Pendidikan</td>
+                <td>Administrasi Pendidikan</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Rizky Maulana</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Bimbingan Konseling</td>
+                <td>Bimbingan dan Konseling</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Cynthia</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Pendidikan Luar Biasa</td>
+                <td>Pendidikan Luar Biasa</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Belastri</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Pendidikan Guru Sekolah Dasar</td>
+                <td>Pendidikan Guru Sekolah Dasar</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Meriam Belina</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Departemen Guru Anak Usia Dini</td>
+                <td>Pendidikan Anak Usia Dini</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Ekonomi dan Bisnis</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Taylor Swift</td>
+                <td>Perempuan</td>
+                <td>Mandiri</td>
+                <td>Manajemen</td>
+                <td>Manajemen</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Ed Sheeran</td>
+                <td>Laki-laki</td>
+                <td>SNBT</td>
+                <td>Bisnis</td>
+                <td>Bisnis Digital</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Georgina Rodriguez</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Akuntansi</td>
+                <td>Akuntansi</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Shawn Mendes</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Ilmu Ekonomi</td>
+                <td>Ilmu Ekonomi</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Justin Bieber</td>
+                <td>Laki-laki</td>
+                <td>SNBP</td>
+                <td>Ilmu Ekonomi</td>
+                <td>Pendidkan Ekonomi</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Matematika dan Ilmu Pengetahuan Alam </h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Freya Jayawardana</td>
+                <td>Perempuan</td>
+                <td>Mandiri</td>
+                <td>Matematika</td>
+                <td>Matematika</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Gita Sekar Andini</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Statistika</td>
+                <td>Statistika</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Indira Seruni Putri</td>
+                <td>Perempuan</td>
+                <td>Mandiri</td>
+                <td>Biologi</td>
+                <td>Bioteknologi</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Reza Habieb</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Kimia</td>
+                <td>Kimia Murni</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Keysha Aurellia</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Fisika</td>
+                <td>Fisika</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Pariwisata dan Perhotelan</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Jamaludin</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Pariwisata</td>
+                <td>Pariwisata</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Rizky Habieb</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Perhotelan</td>
+                <td>Perhotelan</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Indah Cahya</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Tata Rias</td>
+                <td>Tata Rias</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Marsha Lenathea</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Tata Rias</td>
+                <td>Tata Rias</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Alya Amanda</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Perhotelan</td>
+                <td>Perhotelan</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Keolahragaan</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Farana Wiranto</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Kepelatihan</td>
+                <td>Pendidikan Kepelatihan</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Rasya Maulana</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Kepelatihan</td>
+                <td>Pendidikan Kepelatihan</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Lionel Messi</td>
+                <td>Laki-laki</td>
+                <td>SNBP</td>
+                <td>Pendidikan Olahraga</td>
+                <td>Pendidikan Jasmani, Kesehatan, dan Rekreasi</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Cristiano Ronaldo</td>
+                <td>Laki-laki</td>
+                <td>SNBP</td>
+                <td>Kesehatan dan Rekreasi</td>
+                <td>Ilmu Keolahragaan</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Susi Susanti</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Kepelatihan</td>
+                <td>Pendidikan Kepelatihan</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Ilmu Sosial</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Muhammad Khadir</td>
+                <td>Laki-laki</td>
+                <td>SNBT</td>
+                <td>Sosiologi</td>
+                <td>Antropologi</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Maulana Ahmad</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Sejarah</td>
+                <td>Pendidikan Sejarah</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Siti Astuti</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Pendidikan Pancasila dan Kewarganegaraan</td>
+                <td>Pendidikan Pancasila dan Kewarganegaraan</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Fadil Jaidi</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Ilmu Administrasi Negara</td>
+                <td>Ilmu Administrasi Negara</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Khayla Putri</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Geografi</td>
+                <td>Pendidikan Geografi</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Kedokteran</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Eko Mustofa</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Kedokteran</td>
+                <td>Kedokteran</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Boby Karteus</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Kedokteran</td>
+                <td>Kedokteran</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Calista Alifia</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Kedokteran Hewan</td>
+                <td>Kedokteran Hewan</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Fero Chandra</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Kedokteran Hewan</td>
+                <td>Kedokteran Hewan</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Maira Ramadahani</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Kedokteran Hewan</td>
+                <td>Kedokteran Hewan</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Psikologi dan Kesehatan</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Ahmad Sialagan</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Psikologi</td>
+                <td>Psikologi</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Judika</td>
+                <td>Laki-laki</td>
+                <td>SNBT</td>
+                <td>Psikologi</td>
+                <td>Psikkologi</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Olivia Marpaung</td>
+                <td>Perempuan</td>
+                <td>Mandiri</td>
+                <td>Psikologi</td>
+                <td>Psikologi</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Aliando</td>
+                <td>Laki-laki</td>
+                <td>SNBT</td>
+                <td>Kesehatan</td>
+                <td>Keperawatan</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Ariel Tatum</td>
+                <td>SNBP</td>
+                <td>Mandiri</td>
+                <td>Kesehatan</td>
+                <td>Keperawatan</td>
+            </tr>
+        </table> 
+
+        <h2>Fakultas Bahasa dan Seni</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Kevin Christo</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Seni dan Desain</td>
+                <td>Seni Musik</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Kaguya Otsuka</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Pendikan Seni</td>
+                <td>Pendidikan Seni Rupa</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Madara Senju</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Sastra dan Linguistik</td>
+                <td>Sastra Jepang</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Deidara Namikaze</td>
+                <td>Laki-laki</td>
+                <td>SNBT</td>
+                <td>Pendidikan Seni</td>
+                <td>Pendiikan Seni Rupa</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Konan</td>
+                <td>Perempuan</td>
+                <td>SNBP</td>
+                <td>Seni dan Musik</td>
+                <td>Desaik Komunikasi Visual</td>
+            </tr>
+        </table> 
+
+        <h2>Sekolah Vokasi</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Ahsanul Badi</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Animasi</td>
+                <td>Animasi</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Muhammad Kelra</td>
+                <td>Laki-laki</td>
+                <td>SNBT</td>
+                <td>Perpustakaan dan Kearsipan</td>
+                <td>Perpustakaan dan Kearsipan</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Rafa Arkhan</td>
+                <td>Laki-laki</td>
+                <td>SNBP</td>
+                <td>Penginderaan Jauh dan Sistem Informasi Geografis</td>
+                <td>Penginderaan Jauh dan Sistem Informasi Geografis</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Izora Puspa Dewi</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Teknologi Kosmetik</td>
+                <td>Teknologi Kosmetik</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Irene Pamela</td>
+                <td>Perempuan</td>
+                <td>SNBT</td>
+                <td>Animasi</td>
+                <td>Animasi</td>
+            </tr>
+        </table> 
+
+        <h2>Sekolah Pascasarjana</h2>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jenis Kelamin</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Tanda Rakha</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Ilmu Sosial</td>
+                <td>Pendidikan Geografi</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Tandha Rani</td>
+                <td>Perempuan</td>
+                <td>Mandiri</td>
+                <td>Teknik</td>
+                <td>Teknik Elektro</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Irene Salsabila</td>
+                <td>Perempuan</td>
+                <td>Mandiri</td>
+                <td>Bahasa dan Seni</td>
+                <td>Ilmu Keguruan</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Farhan Abbas</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Program Pascasarjana</td>
+                <td>Teknologi Pendidikan</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>Arhan Malik</td>
+                <td>Laki-laki</td>
+                <td>Mandiri</td>
+                <td>Pertambangan</td>
+                <td>Tambang</td>
+            </tr>
+        </table> 
+
+        <section class="tombol">
+            <a href="#"><button type="button">Universitas</button></a>
+            <a href="universitas.html"><button type="button">Fakultas</button></a>
+        </section>
+        
+  
+        
+    </body>
+</html>
